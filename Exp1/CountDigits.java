@@ -5,9 +5,10 @@ public class CountDigits {
     public static void main(String args[])
     {
         int i=0,n;
-        Scanner sc =new Scanner(System.in);
-        System.out.println("Enter a no.");
-        n=sc.nextInt();
+        try (Scanner sc = new Scanner(System.in)) {
+            System.out.println("Enter a no.");
+            n=sc.nextInt();
+        }
         while(n!=0)
         {
             i++;
