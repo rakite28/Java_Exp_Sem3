@@ -1,6 +1,6 @@
 package Exp2;
 import java.util.*;
-public class Q2_3 
+public class PrimeInRange 
 {
     public static void main(String args[])
     {

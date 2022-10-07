@@ -1,6 +1,6 @@
 package Exp2;
 import java.util.*;
-public class Q2_5_2
+public class Pattern2
 {
     public static void main(String args[])
     {
