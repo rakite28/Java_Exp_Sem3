@@ -1,3 +1,4 @@
+package Exp2;
 import java.util.*;
 class Q2_5_1
 {
