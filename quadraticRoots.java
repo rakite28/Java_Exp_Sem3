@@ -1,5 +1,5 @@
 import java.util.*;
-public class Q2_1 {
+public class quadraticRoots {
     public static void main(String[] args)
     {
             Scanner sc = new Scanner(System.in);
