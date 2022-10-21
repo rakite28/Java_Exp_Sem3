@@ -120,14 +120,16 @@ class MyFrame extends JFrame implements ActionListener
  
     public void actionPerformed(ActionEvent e) { 
         if (e.getSource() == myinfo) { 
-            if (term.isSelected()) { 
-                String data1; 
+            if (term.isSelected()) 
+            {  
                 String data = "Name : " + tname.getText() + "\n" + "Street : " + tstreet.getText() + "\n" + "City : " 
                         + tcity.getText() + "\n" + "Pincode : " + tpincode.getText() + "\n"; 
                 tout.setText(data); 
                 tout.setEditable(false); 
                 res.setText("Details entered successfully"); 
-            } else { 
+            } 
+            else 
+            { 
                 tout.setText(""); 
                 resadd.setText(""); 
                 res.setText("Please accept the" + " terms & conditions.."); 
@@ -151,5 +153,5 @@ class Details {
  
     public static void main(String[] args) throws Exception { 
         MyFrame f = new MyFrame(); 
-    } 
+    }
 }
